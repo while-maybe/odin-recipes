@@ -1,0 +1,46 @@
+* {
+    color: #B1D7BE;
+    background-color: #297C46;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1, h2 {
+    color: #01171F;
+}
+
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+h2 {
+    font-style: italic;
+    font-size: xx-large;
+}
+
+
+p {
+    font-size:x-large;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
+
+
+li::marker {
+    color: #62A97A;
+}
+
+li {
+    font-size: larger;
+}
+
+
+.ingredients {
+    font-family: 'Courier New', Courier, monospace;
+}
