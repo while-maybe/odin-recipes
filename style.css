@@ -1,11 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
-    background-color: #297C46;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #B1D7BE;
+    background-color: #4D9B67;
 }
 
 h1 {
     text-align: center;
     font-size: xxx-large;
+    margin: 25px;
+    color: #01171F;
 }
 
 li::marker {
@@ -13,6 +24,45 @@ li::marker {
 }
 
 a {
-    color: #B1D7BE;
     font-size: x-large;
+}
+
+.hand {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-card,
+.recipe-card a  {
+    background-color: #297C46;
+}
+
+.recipe-card a,
+.card-thumbnail {
+    display: block;
+}
+
+.recipe-card {
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+
+    border: 2px solid black;
+
+    margin: 25px;
+    padding: 15px;
+}
+
+.recipe-card a {
+    font-size: large;
+    text-align: center;
+}
+
+.card-thumbnail {
+    width: 216px;
+    height: auto;
+    
+    margin: 0 auto;
 }
